@@ -54,7 +54,7 @@
 
     <script>
         document.addEventListener("DOMContentLoaded", () => {
-            fetch("/chart-data")
+            fetch("https://satish1811.pythonanywhere.com/chart-data")
                 .then(response => response.json())
                 .then(data => {
                     if (data.error) {
